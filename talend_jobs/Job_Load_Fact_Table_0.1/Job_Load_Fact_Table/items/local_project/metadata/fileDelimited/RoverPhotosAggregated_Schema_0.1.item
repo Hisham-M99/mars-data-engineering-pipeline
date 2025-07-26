@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_L3lGgGnLEfChCbHLtFY5fg" name="RoverPhotosAggregated_Schema" id="_L26YIGnLEfChCbHLtFY5fg" dataPackage="_L3lGgWnLEfChCbHLtFY5fg" Server="Localhost 127.0.0.1" FilePath="/home/hisham/Downloads/new project/mars_data_engineering_portfolio/data_engineering_portfolio/data/processed/join_ready/rover_photos_aggregated.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_L3lGgWnLEfChCbHLtFY5fg" name="default" dataManager="_L3lGgGnLEfChCbHLtFY5fg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_L3ltkGnLEfChCbHLtFY5fg" id="_oatasGnJEfChCbHLtFY5fg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltkWnLEfChCbHLtFY5fg" label="sol" length="4" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltkmnLEfChCbHLtFY5fg" label="earth_date" length="10" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltk2nLEfChCbHLtFY5fg" label="photo_count" length="2" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltlGnLEfChCbHLtFY5fg" label="rover_name" length="9" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltlWnLEfChCbHLtFY5fg" label="camera_name" length="95" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltlmnLEfChCbHLtFY5fg" label="year" length="4" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltl2nLEfChCbHLtFY5fg" label="month" length="1" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_L3ltmGnLEfChCbHLtFY5fg" label="day_of_week" length="9" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

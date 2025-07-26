@@ -1,0 +1,27 @@
+# Ignore Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Ignore data that shouldn't be tracked
+*.log
+*.db
+*.sqlite
+*.zip
+
+# Airflow-specific
+airflow.cfg
+unittests.cfg
+logs/
+dags/__pycache__/
+*.airflow
+*.pid
+
+# Talend binaries (optional)
+*.bat
+*.sh
+lib/

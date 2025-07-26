@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_aKL0AGnMEfChCbHLtFY5fg" name="WeatherForJoin_Schema" id="_aKLM8GnMEfChCbHLtFY5fg" dataPackage="_aKL0AWnMEfChCbHLtFY5fg" Server="Localhost 127.0.0.1" FilePath="/home/hisham/Downloads/new project/mars_data_engineering_portfolio/data_engineering_portfolio/data/processed/join_ready/weather_for_join.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aKL0AWnMEfChCbHLtFY5fg" name="default" dataManager="_aKL0AGnMEfChCbHLtFY5fg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aKL0AmnMEfChCbHLtFY5fg" id="_TTdpQGnLEfChCbHLtFY5fg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0A2nMEfChCbHLtFY5fg" label="sol" length="-1" precision="-1" talendType="id_Integer" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0BGnMEfChCbHLtFY5fg" label="avg_temp_celsius" length="-1" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0BWnMEfChCbHLtFY5fg" label="min_temp_celsius" length="-1" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0BmnMEfChCbHLtFY5fg" label="max_temp_celsius" length="-1" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0B2nMEfChCbHLtFY5fg" label="avg_pressure_pa" length="-1" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0CGnMEfChCbHLtFY5fg" label="avg_wind_speed_mps" length="-1" precision="2" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aKL0CWnMEfChCbHLtFY5fg" label="season" length="50" precision="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
