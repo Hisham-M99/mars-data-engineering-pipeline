@@ -1,4 +1,4 @@
-# Mars Data Engineering Pipeline 🚀
+# Mars Data Engineering Pipeline 
 
 This project is a complete end-to-end data engineering pipeline built for portfolio purposes. It extracts, transforms, and loads Mars-related data from NASA APIs, using Python, PostgreSQL, Talend Open Studio, and Apache Airflow.
 
@@ -11,7 +11,7 @@ This project is a complete end-to-end data engineering pipeline built for portfo
 - Pandas / PyArrow
 - JSON / Parquet / CSV
 
-## 📁 Project Structure
+##  Project Structure
 
 mars-data-engineering-pipeline/
 ├── airflow_dags/ # Airflow DAG scripts
