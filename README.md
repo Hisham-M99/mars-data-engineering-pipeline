@@ -1,5 +1,11 @@
 # Mars Data Engineering Pipeline
 
+## Project Pipeline Overview
+
+Here’s a visual summary of the ETL workflow:
+
+![Project Workflow](pipeline_diagram.png)
+
 ## Project Description
 
 This end-to-end data engineering project demonstrates the full lifecycle of handling real-world data from NASA’s open APIs, transforming and cleaning it, and loading it into a PostgreSQL database. The entire workflow is orchestrated using Apache Airflow and designed to simulate a production-grade pipeline.
@@ -88,9 +94,3 @@ mars-data-engineering-pipeline/
 - Deploy on cloud
 
 ---
-## Project Pipeline Overview
-
-Here’s a visual summary of the ETL workflow:
-
-![ETL Pipeline](pipeline_diagram.png)
-
