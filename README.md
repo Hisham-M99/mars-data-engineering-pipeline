@@ -88,3 +88,9 @@ mars-data-engineering-pipeline/
 - Deploy on cloud
 
 ---
+## Project Pipeline Overview
+
+Here’s a visual summary of the ETL workflow:
+
+![ETL Pipeline](pipeline_diagram.png)
+
